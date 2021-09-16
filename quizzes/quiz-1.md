@@ -20,7 +20,7 @@ The purpose of this quiz is to ensure that we are all on the same page with resp
 #
 ##  Questions (true/false)
 
-1. I have successfully completed the Github onboarding instructions, and acknowledge that I shall never run the command `git push upstream` or `git push upstream main` against the main course repository.
+1. I have successfully completed the Github onboarding instructions, and acknowledge that I shall never run the command `git push upstream` or `git push upstream main` against the main course repository. 
 
 True
 
@@ -52,6 +52,7 @@ True
 
 8. I have understand the Georgetown academic integrity policies as laid out in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and that those policies apply to this class.
 
+<<<<<<< HEAD
 True
 
 9. I understand the policies pertaining to [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter), and that I pledge to do my part in making sure that this course provides a safe and inclusive working environment for everyone.
@@ -59,3 +60,6 @@ True
 True
 
 
+=======
+9. I understand the policies pertaining to [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter), and that I pledge to do my part in making sure that this course provides a safe and inclusive working environment for everyone.
+>>>>>>> 7013a9d61dc5ae924f1f837d2164afbdb15db79a
