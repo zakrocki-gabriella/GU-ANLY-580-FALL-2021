@@ -32,3 +32,17 @@ The purpose of this lab is to expose you to a few things:
     ``` 
     # Query results go here
     ``` 
+
+**Note for Windows users**: Virtex does not run on Windows (because it requires uvloop which unfortunately does not support Windows). As an alternative, you can run this on your machine using [Docker](https://docs.docker.com/desktop/windows/install/). Once you have docker installed, execute the following commands from within the `GU-ANLY-580/labs/lab-06` folder:
+
+    $ docker build -t fasttext-demo .
+    $ docker run -p 580:580 fasttext-demo:latest
+
+And then head over to your rest client (step 2 above) to complete the task. Alternatively, you can interact with FastText programmatically from within Python, for example:
+
+   ```python
+   import fasttext
+   
+   model = fasttext.load_model("en.quant.bin")
+   match = model.get_nearest_neighbors("italian")
+   ```
