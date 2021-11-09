@@ -86,7 +86,7 @@ Students of this course will have access to recorded lectures and other large fi
 |    Nov 15      |     Nov 04   | 11 | **Speech Processing Part II: Speech Recognition** <br> - RNN Transducers, CTC <br> - Transformer based models  <br> **Lab-11** <br> - Finetune E2E RNNT on your own voice <br> [[Lecture]()] [[Lab]()]   | Suggested Reading: <br> [<a href="https://arxiv.org/pdf/1211.3711.pdf">Graves, 2012</a>] <br> [<a href="https://arxiv.org/pdf/1811.06621.pdf">He et al., 2018</a>]     |
 |    Nov 10      |     Nov 10   |  | Project proposals due **11:59pm EST** | [[Project description link]()]  |
 |    Nov 22      |     Nov 11   | 12 | **Dialogue Systems: Part I** <br> - Dialogue management <br> - Entity extraction, slot filling <br> - Policy based dialogue <br> **Lab-12** <br> - Introduction to Rasa <br> [[Lecture]()] [[Lab]()]    | Suggested Reading: <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chp 24</a>] <br> [<a href="https://arxiv.org/pdf/1712.05181.pdf">Bocklisch et al., 2017</a>]             |
-|    Nov 15      |     Nov 15   |  | Quiz 3 Due **11:59pm EST** | [[Quiz Link]()] |
+|    Nov 15      |     Nov 15   |  | Quiz 3 Due **11:59pm EST** | [[Quiz Link](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/tree/main/quizzes)] |
 |    Nov 29      |     Nov 18   | 13  | **Dialogue Systems: Part II** <br> *Introduction to Jarvis* <br> Guest: Oluwatobi Olabiyi <br> Senior Research Manager, NVIDIA <br> **Lab-13** (not graded) <br> - Project work <br> [[Lecture]()] | |
 |    Nov 19      |     Nov 19  |  | Assignment 4 due **11:59pm EST** | [[Assignment link]()] |
 |    ~~Dec 05~~      |     ~~Dec 01~~   |  | ~~Quiz 4 due **11:59pm EST**~~ | ~~[[Quiz link]()]~~ |
