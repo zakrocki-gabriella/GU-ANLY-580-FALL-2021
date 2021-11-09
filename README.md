@@ -41,7 +41,7 @@ The course grade is broken down in the table below. The course grade consists of
 | [Quiz 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/quizzes/quiz-1.md) | 3% |   individual  | Sep 08 | Sep 08 |
 | [Quiz 2]((https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/quizzes/quiz-2.md)) | 4% | individual | Sep 26 | Sep 22 |
 | [Quiz 3]() | 4% | individual | Nov 15 | Nov 15 |
-| [Quiz 4]() | 4% | individual | Dec 05 | Dec 01 |
+| [~~Quiz 4~~]() | ~~4%~~ | ~~individual~~ | ~~Dec 05~~ | ~~Dec 01~~ |
 | [Assignment 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-1.pdf) |  10%  | groups <= 3 | Sep 26 | Sep 22 |
 | [Assignment 2](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-2.md) | 10% | individual | Oct 10 | Oct 06 |
 | [Assignment 3]() | 10% | individual | Oct 30 | Oct 30 |
@@ -89,7 +89,7 @@ Students of this course will have access to recorded lectures and other large fi
 |    Nov 15      |     Nov 15   |  | Quiz 3 Due **11:59pm EST** | [[Quiz Link]()] |
 |    Nov 29      |     Nov 18   | 13  | **Dialogue Systems: Part II** <br> *Introduction to Jarvis* <br> Guest: Oluwatobi Olabiyi <br> Senior Research Manager, NVIDIA <br> **Lab-13** (not graded) <br> - Project work <br> [[Lecture]()] | |
 |    Nov 19      |     Nov 19  |  | Assignment 4 due **11:59pm EST** | [[Assignment link]()] |
-|    Dec 05      |     Dec 01   |  | Quiz 4 due **11:59pm EST** | [[Quiz link]()] |
-|    Dec 06      |     Dec 02   | 14 | **NLP System Design** <br> - REST, HTTP, RPCs <br> - Containerization & cloud deployment <br> - Production model serving  <br> **Lab-14** (extra credit) <br> - Deploy an embedding service on a VM<br> [[Lecture]()] [[Lab]()]  |   |
+|    ~~Dec 05~~      |     ~~Dec 01~~   |  | ~~Quiz 4 due **11:59pm EST**~~ | ~~[[Quiz link]()]~~ |
+|    Dec 06      |     Dec 02   | 14 | ~~**NLP System Design** <br> - REST, HTTP, RPCs <br> - Containerization & cloud deployment <br> - Production model serving~~  <br> ~~**Lab-14** (extra credit) <br> - Deploy an embedding service on a VM<br> [[Lecture]()] [[Lab]()]~~ <br> <br> **Final Project Presentations**  <br> - Project presentations <br> |  [[Schedule / signup sheet](https://docs.google.com/spreadsheets/d/1ekGyNiaY6U7SZ_Q-mYKQO2ZVLY6XVVuXgvYFM-7-sig)] |
 | Dec 08 | Dec 08 |  | Labs 1-6,8-10,12,14 due **11:59pm EST** <br> Final projects due **11:59pm EST** | |
 | TBD    | TBD    |  | Final project poster session & demos | |
