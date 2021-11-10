@@ -38,8 +38,8 @@ The scope and deliverables need to be established and agreed upon with the instr
 
 |   Item              | Due Date |
 | :-----------------: | :------: |
-| Group selection     |  Oct 14  |
-| Project proposal    |  Nov 01  |
+| Group selection     |  Oct 21  |
+| Project proposal    |  Nov 10  |
 | Presentation / Demo |  Dec 08  |
 
 #
