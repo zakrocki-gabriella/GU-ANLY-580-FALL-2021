@@ -1,10 +1,16 @@
+import os
 import sys
 import time
+import json
 import pyaudio
 import wave
 import soundfile as sf
+import fastwer
 import torch
+import transformers
+transformers.logging.set_verbosity_error()
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
+
 
 
 CHUNK = 1024
@@ -60,13 +66,16 @@ def transcribe(fname, model_name):
     model = Wav2Vec2ForCTC.from_pretrained(model_name)
     # tokenize
     speech, _ = sf.read(fname)
-    input_values = processor([speech,], return_tensors="pt", padding="longest").input_values  # Batch size 1
+    input_values = processor([speech,],
+                             return_tensors="pt",
+                             padding="longest").input_values
     # retrieve logits
     logits = model(input_values).logits
     # take argmax and decode
     predicted_ids = torch.argmax(logits, dim=-1)
-    transcription = processor.batch_decode(predicted_ids)
-    return [text.lower() for text in transcription]
+    transcription = processor.batch_decode(predicted_ids)[0]
+    with open(fname.split('.')[0] + "_transcription.txt", "w") as fd:
+        fd.write(transcription.lower())
 
 
 if __name__ == '__main__':
@@ -82,7 +91,19 @@ if __name__ == '__main__':
         model_name = "facebook/wav2vec2-base-960h"
         if len(sys.argv) > 3:
             model_name = sys.argv[3]
-        transcriptions = transcribe(fname, model_name)
-        print("\nTranscribed audio:")
-        for sent in transcriptions:
-            print(sent)
+        transcribe(fname, model_name)
+    elif action == "evaluate":
+        reference_text = sys.argv[3]
+        with open(reference_text, "r") as fd:
+            reference_text = fd.read().replace("\n", "").strip()
+        with open(fname, 'r') as fd:
+            transcription = fd.read().strip()
+        wer = fastwer.score([transcription],
+                            [reference_text])
+        cer = fastwer.score([transcription],
+                            [reference_text],
+                            char_level=True)
+        with open("results.json", "w") as fd:
+            json.dump({"word_error_rate": wer,
+                       "character_error_rate": cer},
+                      fd, indent=3)
