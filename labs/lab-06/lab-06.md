@@ -31,6 +31,9 @@ The purpose of this lab is to expose you to a few things:
 
     ``` 
     # Query results go here
+    
+    I was unable to get the ARC application to finish sending. There was no body content type field.
+    
     ``` 
 
 **Note for Windows users**: Virtex does not run on Windows (because it requires uvloop which unfortunately does not support Windows). As an alternative, you can run this on your machine using [Docker](https://docs.docker.com/desktop/windows/install/). Once you have docker installed, execute the following commands from within the `GU-ANLY-580/labs/lab-06` folder:
